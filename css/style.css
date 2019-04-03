@@ -1,3 +1,5 @@
+
+
 * {
     margin: 0;
     padding: 0;
@@ -50,6 +52,12 @@ header div {
     font-size: 18px;
 }
 
+.articul {
+    padding-left: 25px;
+    font-weight: bold;
+    color: #000;
+}
+
 p {
     padding: 10px 0 20px;
 }
@@ -58,12 +66,6 @@ p {
     display: flex;
     justify-content: space-around;
     position: relative;
-}
-
-.articul {
-    padding-left: 25px;
-    font-weight: bold;
-    color: #000;
 }
 
 .sale {
@@ -89,6 +91,29 @@ p {
     margin-top: 60px;
 }
 
+.more {
+    display: block;
+    width: 150px;
+    margin: 10px auto;
+    text-decoration: none;
+    text-align: center;
+    color: #dde;
+    font-family: 'Oswald', sans-serif;
+    font-size: 22px;
+    padding: 14px;
+    border: 3px solid #777;
+    border-radius: 8px;
+    background-color: #888;
+    transition: background-color .2s, border-color .2s;
+}
+
+.more:hover {
+    background-color: #3583b0;
+    border: 3px solid #28678c;
+    color: #ffffff;
+    text-shadow: black 2px 2px 4px;
+}
+
 footer p {
     padding: 4px 0;
     font-size: 11px;
@@ -97,4 +122,47 @@ footer p {
 footer {
     padding: 20px;
     color: #707070;
+}
+
+/*@media screen and (max-width: 780px) {*/
+/*    body {*/
+/*        width: 95%;*/
+/*    }*/
+/*}*/
+
+@media screen and (max-width: 500px){
+
+    body {
+        width: 96%;
+        min-width: 320px;
+    }
+
+    header, .param {
+        flex-direction: column;
+    }
+
+    header {
+        align-items: center;
+    }
+
+    header  div {
+        margin: 5px;
+    }
+
+    main {
+        padding: 10px 20px;
+    }
+
+    h1 {
+        margin: 5px 5px 20px 5px;
+    }
+
+    .sale {
+        top: -5px;
+        left: -5px;
+    }
+
+    .foto {
+        width: 100%;
+    }
 }
