@@ -2,66 +2,340 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Phone Express</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The END</title>
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900|Roboto:100,300,700,900|Hammersmith+One"
+          rel="stylesheet">
+    <!-- font-family: 'Roboto', sans-serif;    font-family: 'Playfair Display', serif; -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 </head>
 <body>
+<section class="sectionHome" id="home">
+    <div class="bgOverlay">
+        <div class="wrapper">
+            <div class="navBar">
+                <div class="logo">
+                    <img class="logo__img" src="img/logo.png" alt=""/>
+                    <span class="logo__text">tajam</span>
+                </div>
+                <nav class="navBar__menu">
+                    <a class="navBar__item navBar__item_active" href="#home">Home</a>
+                    <a class="navBar__item" href="#about">About</a>
+                    <a class="navBar__item" href="#expertise">Expertise</a>
+                    <a class="navBar__item" href="#team">Teams</a>
+                    <a class="navBar__item" href="#works">Works</a>
+                    <a class="navBar__item" href="#people">People say</a>
+                    <a class="navBar__item" href="#contact">Contact</a>
+                </nav>
+                <nav class="burgerMenu">
+                    <a class="navBar__item" href="#"><i class="fas fa-bars"></i></a>
+                </nav>
+            </div>
+            <div class="slider">
+                <h1 class="slider__title">We Are Awesome Creative Agency</h1>
+                <hr class="line">
+                <div class="slider__text">
+                    This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit
+                    auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec
+                    sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi
+                    accumsan ipsum velit.
+                </div>
+                <a href="#">
+                    <button class="button">Learn more</button>
+                </a>
+            </div>
+            <div class="sliderNav">
+                <ul class="sliderNav__items">
+                    <li class="sliderNav__item"><a class="sliderNav__link sliderNav__link_active" href="#"></a></li>
+                    <li class="sliderNav__item"><a class="sliderNav__link" href="#"></a></li>
+                    <li class="sliderNav__item"><a class="sliderNav__link" href="#"></a></li>
+                    <li class="sliderNav__item"><a class="sliderNav__link" href="#"></a></li>
+                </ul>
+            </div>
+        </div>  <!--  / .wrapper -->
+    </div>
+</section>
+<!-- / .sectionHome -->
 
-<!--Колонтитул-->
-<header>
-    <div class="l_text">Карточка товара</div>
-    <div class="r_text">Артикул: <span class="articul">143267</span></div>
-</header>
-
-<!--Карточка товара-->
-<main>
-    <h1>BlackBerry DTEK50</h1>
-    <div class="blokOverview">
-        <div class="blokOverview__image">
-            <div class="sale">Скидка<br>50%</div>
-            <img class="imageBox" src="img/phone_big.png" alt=""/>
-            <div class="thumb">
-                <img src="img/phone_small.png" alt="" />
-                <img src="img/phone_small.png" alt="" />
-                <img src="img/phone_small.png" alt="" />
-                <img src="img/phone_small.png" alt="" />
+<section class="sectionAbout" id="about">
+    <div class="wrapper">
+        <div class="spacer"></div>
+        <div class="aboutContent">
+            <img class="about__logo" src="img/logo_about.png" alt="logo"/>
+            <div class="aboutContent__textBlok">
+                <h2 class="contentTitle">Our story</h2>
+                <p class="aboutContent__text">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit
+                    auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec
+                    sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus</p>
+                <p class="aboutContent__text">Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a
+                    ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad
+                    litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                <a href="#">
+                    <button class="button">Learn more</button>
+                </a>
             </div>
         </div>
-        <div class="blokOverview__text">
-            <h2>Дисплей</h2>
-            <p>Диагональ экрана: 6.3<br>
-                Разрешение дисплея: 2340 x 1080<br>
-                Тип матрицы: IPS<br>
-                Количество точек касания: 10<br>
-                Материал экрана: Стекло
-            </p>
+        <div class="spacer"></div>
+    </div>
+</section>
+<!-- / .sectionAbout -->
 
-            <h2>Память</h2>
-            <p>Оперативная память: 4 ГБ<br>
-                Встроенная память: 64 ГБ<br>
-                Формат карт памяти: microSD<br>
-                Макс. объем карты памяти: 256 ГБ<br>
-            </p>
+<section class="sectionVideo">
+    <div class="bgOverlay">
+        <div class="wrapper">
+            <div class="sectionVideo__content">
+                <a class="sectionVideo__button" href="#"></a>
+                <h3 class="sectionVideo__title">Watch our story</h3>
+            </div>
         </div>
     </div>
-    <div class="blokInfo">
-        <h2>Краткое описание</h2>
-        <p>Экран (6.3", IPS, 2340x1080) / HiSilicon Kirin 710 (2.2ГГц + 1.7ГГц) / двойная основная камера: 16Мп + 2Мп / двойная фронтальная камера: 24Мп + 2Мп / RAM 4ГБ / 64ГБ встроенной памяти + microSD (до 256ГБ) / 3G / LTE / A-GPS / ГЛОНАСС / BDS / поддержка 2х SIM-карт (Nano-SIM) / Android 8.1 (Oreo) / 3340мА*ч</p>
-        <a class="more" href="https://rozetka.com.ua/huawei_p_smart_plus_black/p48225238/" target="_blank">Подробнее &nbsp;»»
-        </a>
+</section>
+<!-- / .sectionVideo -->
 
+<section class="sectionExpertise" id="expertise">
+    <div class="wrapper">
+        <div class="spacer"></div>
+        <div class="blockTitle">
+            <h2 class="contentTitle">Expertise</h2>
+            <p class="expertiseTitle__text">
+                Lorem ipsum dolor sit amet proin gravida nibh vel velit.
+            </p>
+            <hr class="line line_gray">
+        </div>
+        <div class="expertiseContent">
+            <div class="expertiseContent__item">
+                <img class="expertiseContent__icon" src="img/webDev_icon.png" alt="">
+                <h3 class="expertiseContent__title">WEB DESIGN & DEVELOPMENT</h3>
+                <p class="expertiseContent__text">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+            </div>
+            <div class="expertiseContent__item">
+                <img class="expertiseContent__icon" src="img/identity_icon.png" alt="">
+                <h3 class="expertiseContent__title">BRANDING IDENTITY</h3>
+                <p class="expertiseContent__text">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+            </div>
+            <div class="expertiseContent__item">
+                <img class="expertiseContent__icon" src="img/mobApp_icon.png" alt="">
+                <h3 class="expertiseContent__title">MOBILE APP</h3>
+                <p class="expertiseContent__text">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+            </div>
+            <div class="expertiseContent__item">
+                <img class="expertiseContent__icon" src="img/seo_icon.png" alt="">
+                <h3 class="expertiseContent__title">SEARCH ENGINE OPTIMIZATION</h3>
+                <p class="expertiseContent__text">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+            </div>
+            <div class="expertiseContent__item">
+                <img class="expertiseContent__icon" src="img/gameDev_icon.png" alt="">
+                <h3 class="expertiseContent__title">GAME DEVELOPMENT</h3>
+                <p class="expertiseContent__text">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+            </div>
+            <div class="expertiseContent__item">
+                <img class="expertiseContent__icon" src="img/love_icon.png" alt="">
+                <h3 class="expertiseContent__title">MADE WITH LOVE</h3>
+                <p class="expertiseContent__text">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+            </div>
+        </div>
     </div>
-</main>
+</section>
+<!-- / expertise -->
 
-<!--Подвал-->
-<footer>
-    <p>* Характеристики и комплектация товара могут изменяться производителем без уведомления</p>
-    <p>* Внимание! Все телефоны имеют кирилличные буквы на клавиатуре, украинское меню!</p>
+<section class="sectionTeam" id="team">
+    <div class="bgOverlay">
+        <div class="wrapper">
+            <div class="spacer"></div>
+            <div class="blockTitle">
+                <div class="contentTitle contentTitle-white">MEET OUR AMAZING TEAM</div>
+                <div class="blockTitle__text blockTitle__text-white">Lorem ipsum dolor sit amet proin gravida nibh vel velit</div>
+                <hr class="line line_trans">
+            </div>
+            <div class="teamContent">
+                <div class="teamContent__box">
+                    <div class="teamContent__item">
+                        <img src="img/no_photo.png" alt="">
+                        <br>
+                        <ul class="teamContent__names">
+                            <li class="teamContent__name">SEMF UCUK</li>
+                            <li class="teamContent__job">CEO & FOUNDER</li>
+                        </ul>
+                    </div>
+                    <div class="teamContent__item">
+                        <img src="img/no_photo.png" alt="">
+                        <br>
+                        <ul class="teamContent__names">
+                            <li class="teamContent__name">DIK ADALIN</li>
+                            <li class="teamContent__job">ENGINEERING</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="teamContent__box">
+                <div class="teamContent__item">
+                    <img src="img/no_photo.png" alt="" >
+                    <br>
+                    <ul class="teamContent__names">
+                        <li class="teamContent__name">JENG KOL</li>
+                        <li class="teamContent__job">DESIGNER</li>
+                    </ul>
+                </div>
+                <div class="teamContent__item">
+                    <img src="img/no_photo.png" alt="" >
+                    <br>
+                    <ul class="teamContent__names">
+                        <li class="teamContent__name">PET ROMAK</li>
+                        <li class="teamContent__job">MARKETING</li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+            <div class="teamContent__text">
+                <p>Become part of our dream team, let’s join us ! </p>
+                <a href="#">
+                    <button class="button">We are hiring</button>
+                </a>
+            </div>
+            <div class="spacer"></div>
+        </div>
+    </div>
+</section>
+<!-- / .sectionTeam -->
+
+<section class="sectionWorks" id="works">
+    <div class="wrapper wrapper_wide">
+        <div class="spacer"></div>
+        <div class="blockTitle blockTitle_inline">
+            <span class="contentTitle">Our works</span>
+            <span class="blockTitle__text blockTitle__text_inline">
+                <a class="moreWorksLink" href="#" >See All Project in dribbble »</a>
+            </span>
+        </div>
+        <div class="worksContent">
+            <img class="worksContent__item" src="img/work1.png" alt="">
+            <img class="worksContent__item" src="img/work2.png" alt="">
+            <img class="worksContent__item" src="img/work3.png" alt="">
+            <img class="worksContent__item" src="img/work4.png" alt="">
+            <img class="worksContent__item" src="img/work5.png" alt="">
+            <img class="worksContent__item" src="img/work6.png" alt="">
+            <img class="worksContent__item" src="img/work7.png" alt="">
+            <img class="worksContent__item" src="img/work8.png" alt="">
+            <img class="worksContent__item" src="img/work1.png" alt="">
+            <img class="worksContent__item" src="img/work2.png" alt="">
+            <img class="worksContent__item" src="img/work3.png" alt="">
+            <img class="worksContent__item" src="img/work4.png" alt="">
+        </div>
+        <div class="worksContent__button">
+        <a href="#">
+            <button class="button">Load more</button>
+        </a>
+        </div>
+        <div class="spacer"></div>
+    </div>
+</section>
+<!-- / .sectionWorks -->
+
+<section class="sectionPeople" id="people">
+    <div class="bgOverlay">
+        <div class="wrapper">
+            <div class="spacer_40"></div>
+            <div class="blockTitle">
+                <div class="contentTitle contentTitle-big contentTitle-white">«...»</div>
+                <div class="sectionPeople__text">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit.</div>
+            </div>
+            <div class="peopleSlider">
+                <div class="peopleSlider__title">JANE GALADRIEL</div>
+                <div class="peopleSlider__subtitle">CEO TENGKUREP</div>
+                <div class="peopleSlider__nav">
+                    <nav class="peopleSlider__items">
+                        <a href="#"><img src="img/backward.png" alt=""></a>
+                        <a href="#"><img class="peopleSlider__link" src="img/people1.png" alt=""></a>
+                        <a href="#"><img class="peopleSlider__link" src="img/people2.png" alt=""></a>
+                        <a href="#"><img class="peopleSlider__link" src="img/people3.png" alt=""></a>
+                        <a href="#"><img class="peopleSlider__link" src="img/people4.png" alt=""></a>
+                        <a href="#"><img class="peopleSlider__link" src="img/people5.png" alt=""></a>
+                        <a href="#"><img src="img/forward.png" alt=""></a>
+                    </nav>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- / .sectionPeople -->
+
+<section class="sectionContact" id="contact">
+    <div class="wrapper">
+        <div class="sectionContent">
+            <div class="sectionContent__item">
+                <div class="contentTitle">GIVE US A GOOD NEWS</div>
+                <form class="contactForm" action="#contact" method="post">
+                    <input class="textField" type="text" placeholder="Name" name="name">
+                    <input class="textField" type="email" placeholder="e-mail" id="e-mail">
+                    <input class="textField" type="text" placeholder="Subject" name="subject">
+                    <textarea class="textField" rows="10" name="message" placeholder="Your message"></textarea>
+                    <button class="button" type="submit">Submit</button>
+                </form>
+            </div>
+            <div class="sectionContent__item">
+                <div class="contentTitle">Our happy client</div>
+                <img src="img/client_logo.png" alt="Clients logo's" class="clientsLogo">
+            </div>
+        </div>
+    </div>
+    <div class="spacer"></div>
+</section>
+<!-- / .sectionContent -->
+
+<footer class="footer" id="footer">
+    <div class="bgOverlay">
+        <div class="wrapper">
+            <div class="spacer"></div>
+            <div class="footerContent">
+                <div class="footerContent__item">
+                    <div class="logo">
+                        <img class="logo__img" src="img/logo.png" alt=""/>
+                        <span class="logo__text">tajam</span>
+                    </div>
+                    <p class="footerContent__text">
+                        Lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh elit. Duis sed odio sit amet auctror a ornare odio non mauris vitae erat in elit
+                    </p>
+                </div>
+                <div class="footerContent__item">
+                    <div class="peopleSlider__title">Our studio</div>
+                    <div class="spacer_40"></div>
+                    <img class="footerContent__icon" src="img/adress_icon.png" alt="">
+                    <p class="footerContent__adress">Ruko cucruk, Jl. Radio luar dalem jos No.12 - 13, Kalideres - Jakarta Barat
+                        11480 - Indonesia</p>
+                    <img src="img/phone_icon.png" class="footerContent__icon" alt="">
+                    <p class="footerContent__adress">(+62) 21-2224 3333</p>
+                </div>
+                <div class="footerContent__item">
+                    <div class="peopleSlider__title">Stay in touch</div>
+                    <div class="spacer_40"></div>
+                    <div class="subscribe">
+                        <div class="subscribe__title">Subscribe our newsletter</div>
+                        <a href="#footer" class="subscribe__btn" title="Subscribe">
+                            <img class="subscribe__icon" src="img/subscribe_btn.png" alt="">
+                        </a>
+                    </div>
+                    <div class="socialBar">
+                        <a class="socialBar__link" href="http://www.facebook.com" target="_blank"></a>
+                        <a class="socialBar__link socialBar__link_twit" href="https://twitter.com/?lang=ru" target="_blank"></a>
+                        <a class="socialBar__link socialBar__link_drib" href="http://dribbble.com" target="_blank"></a>
+                        <a class="socialBar__link socialBar__link_inst" href="http://www.instagram.com/?hl=ru" target="_blank"></a>
+                        <a class="socialBar__link socialBar__link_gplus" href="http://google.com" target="_blank"></a>
+                        <a class="socialBar__link socialBar__link_youtube" href="http://youtube.com" target="_blank"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="bottomBar">
+                <nav class="footerNav">
+                    <a href="#" class="footerNav__link">Home</a>
+                    <a href="#" class="footerNav__link">Terms & conditions</a>
+                    <a href="#" class="footerNav__link">Privacy</a>
+                </nav>
+                <div class="bottomBar__copyright">Copyright © 2015 - Tajem Creative</div>
+            </div>
+            <div class="spacer"></div>
+        </div>
+    </div>
 </footer>
-
-<div class="clss"></div>
-<!-- /.clss -->
 </body>
 </html>
